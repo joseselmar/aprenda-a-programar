@@ -2,7 +2,6 @@ let nome =  'jose selmar' ;
 let idade = 32;
 let profissao = 'analista de sistemas'; 
 let email = 'selmar.unimedbv@gmail.com';
-let proximas_ferias = 'machu picchu';
+let proximas_ferias = 'Machu Picchu';
 
-console.log('O nome do aluno é: ',nome,'-',profissao,',',idade,'anos', '- email:',email,
-'e sonha em conhecer:',proximas_ferias);
+console.log('Olá,',nome,'! Somos aqui da agência de turismo Viagem dos Sonhos. Estamos te escrevendo este email, pois acabamos de confirmar as compras das passagens aéreas para',proximas_ferias,'. Confirma pra gente alguns dados? A sua idade é ',idade,', você é ',profissao,' e o seu email é ',email,'? Ficamos no aguardo. Muito obrigado e boa viagem! :D');
