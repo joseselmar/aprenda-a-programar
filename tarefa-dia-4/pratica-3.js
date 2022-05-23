@@ -107,7 +107,7 @@ let somaSemGorgeta = 0
 for(let i of receita){
     somaSemGorgeta = somaSemGorgeta + i.valor
 }
-console.log("O valor das Vendas sem gorgetas foi - R$",somaSemGorgeta)
+console.log("O valor das Vendas sem gorgetas foi - R$",somaSemGorgeta.toFixed(2))
 
 //Problema 2: Qual o valor total de vendas incluindo a gorjeta?
 //COLOQUE SUA SOLUÇÃO AQUI
@@ -119,7 +119,7 @@ for(let i of receita){
     ReceitaTotal = i.valor + i.gorjeta
     somaTudo = somaTudo + ReceitaTotal
 }
-console.log("O valor Total arrecadado foi - R$",somaTudo)
+console.log("O valor Total arrecadado foi - R$",somaTudo.toFixed(2))
 
 //Problema 3: Quantas vendas foram abaixo de 50 reais?
 //COLOQUE SUA SOLUÇÃO AQUI
