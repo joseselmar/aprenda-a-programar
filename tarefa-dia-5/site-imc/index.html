@@ -2,10 +2,17 @@
 <html>
     <head>
         <script src="script.js"></script>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="stilo.css" />
+        <title>Minha Calculadora de IMC - Ituring</title>
+        
     </head>
     <body>
+        <header>
         <h1>Calculando e exibindo o resultado do IMC</h1>
         <p>Resolva os exercícios a seguir alterando o arquivo <strong>script.js</strong>.</p>
+        </header>
+        <main>
         <ol>
             <li>
                 Implemente a função <strong>calculoIMC</strong> para calcular e retornar o valor do IMC. 
@@ -34,15 +41,18 @@
             e modifique o design da página como julgar melhor.
            <br> Não se esqueça de importar o arquivo css no Head da página conforme vimos em aula.
         </p>
-
+    </main>
+    <aside>
+       
         <h2>Calculadora de IMC</h2>
         <form>
             <label for="peso">Peso:</label>
-            <input type="text" id="peso" name="peso">
+            <input type="text" id="peso" name="peso" placeholder="Insira o seu peso">
             <label for="altura">Altura:</label>
-            <input type="text" id="altura" name="altura">
+            <input type="text" id="altura" name="altura" placeholder="insira a sua altura separado por ponto">
             <input type="button" onclick="mostrarResultadoIMC()" value="calcular IMC">
         </form>
         <p id="resultado"></p>
+    </aside>
     </body>
 </html>

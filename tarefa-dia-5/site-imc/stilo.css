@@ -1,0 +1,20 @@
+*{
+    text-align: center;
+    background-color: bisque;
+}
+header{
+    text-align: center;
+    border: 1px solid gray;
+    font-size: 32px;
+}
+ol ,li {
+    text-align: justify;
+}
+input:hover{
+    background-color: aqua;
+    color: white;
+}
+button:hover{
+    color: goldenrod;
+    font-size: 23px;
+}
